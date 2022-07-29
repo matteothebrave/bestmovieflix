@@ -1,0 +1,73 @@
+body {
+  font-family: 'Anime Ace', sans-serif;
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  font-family: 'Anime Ace', sans-serif;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  margin-top: 5px;
+}
+
+#listaFilmes img {
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  font-family: 'Anime Ace', sans-serif;
+  -moz-border-radius: 25px;
+  -moz-box-shadow: #ffffff 0px 0px 10px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-border-radius: 25px;
+  -webkit-box-shadow: #6e7849 0 0 10px;
+  -webkit-transition: all 0.5s ease;
+  background-color: #5bb2ec;
+  background-image: -moz-linear-gradient(90deg, #99c6f4, #5bb2ec);
+  background-image: -ms-linear-gradient(90deg, #99c6f4, #5bb2ec);
+  background-image: -o-linear-gradient(90deg, #99c6f4, #5bb2ec);
+  background-image: -webkit-linear-gradient(90deg, #99c6f4, #5bb2ec);
+  background-image: linear-gradient(90deg, #99c6f4, #5bb2ec);
+  border-radius: 25px;
+  border: 2px solid #000000;
+  box-shadow: #ffffff 0px 0px 10px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  margin: auto;
+  padding: 15px;
+  text-decoration: none;
+  text-shadow: #000000 5px 5px 15px;
+  transition: all 0.5s ease;
+}
+
+.form-wrapper button:hover {
+  color: #000000 !important;
+  background: #cf0000;
+  background: linear-gradient(to top, #cf0000, #ffffff);
+}
